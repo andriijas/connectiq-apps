@@ -1,0 +1,17 @@
+<layout id="WatchFace">
+    <bitmap id="HbgmLogo" filename="../drawables/hbgm.png" x="center" y="center" />
+    
+    <label id="DateDayLabel" x="center" y="10" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+    <label id="DateLabel" x="center" y="25" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+
+    <label id="TimeLabel" x="center" y="center" font="Gfx.FONT_NUMBER_HOT" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+    <label id="CountDownLabel" x="center" y="150" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label text="@Strings.days" x="center" y="170" font="Gfx.FONT_TINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    
+    <drawable id="battery" class="Battery">
+        <param name="x">10</param>
+        <param name="y">104</param>
+        <param name="height">10</param>
+        <param name="width">22</param>
+    </drawable>
+</layout>

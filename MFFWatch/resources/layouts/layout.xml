@@ -1,0 +1,5 @@
+<layout id="MainLayout" background="Gfx.COLOR_TRANSPARENT">
+   <bitmap id="id_mff" filename="../images/mff.png" x="20" y="35" />
+   <label id="time" x="109" y="46" font="Gfx.FONT_LARGE" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+   <label id="date" x="109" y="10" font="Gfx.FONT_TINY" color="Gfx.COLOR_DK_GRAY" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+</layout>

@@ -1,0 +1,8 @@
+<resources>
+    <string id="AppName">MFFWatch</string>
+
+    <bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
+	<palette>
+      <color>0093D3</color>
+    </palette>
+</resources>
