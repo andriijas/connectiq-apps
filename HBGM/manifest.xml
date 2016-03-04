@@ -12,10 +12,7 @@
         <iq:permissions>
         </iq:permissions>
 
-        <iq:languages>
-            <iq:language>eng</iq:language>
-            <iq:language>swe</iq:language>
-        </iq:languages>
+        <iq:languages/>
 
     </iq:application>
 </iq:manifest>

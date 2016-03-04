@@ -5,7 +5,6 @@ using Toybox.System as Sys;
 class Battery extends Ui.Drawable
 {
     hidden var x, y, width, height;
-    var batteryLevel;
 
     function initialize(options) {
         x = options[:x];
@@ -15,11 +14,9 @@ class Battery extends Ui.Drawable
         Drawable.initialize(options);
     }
 
-    function setLevel(percentage) {
-        batteryLevel = percentage.toNumber();
-    }
-
     function draw(dc) {
+        var batteryLevel = Sys.getSystemStats().battery.toNumber();
+
         dc.setPenWidth(1);
 
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);

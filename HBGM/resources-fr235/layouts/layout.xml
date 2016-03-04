@@ -1,17 +1,25 @@
 <layout id="WatchFace">
-    <bitmap id="HbgmLogo" filename="../drawables/hbgm.png" x="center" y="center" />
+    <bitmap id="HbgmLogo" filename="../drawables/hbgm.png" x="center" y="110" />
     
-    <label id="DateDayLabel" x="center" y="0" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
-    <label id="DateLabel" x="center" y="15" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+    <label id="DateLabel" x="center" y="18" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
 
-    <label id="TimeLabel" x="center" y="center" font="Gfx.FONT_NUMBER_HOT" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
-    <label id="CountDownLabel" x="center" y="130" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-    <label text="@Strings.days" x="center" y="155" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="TimeLabel" x="center" y="20" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+
+	<label id="ActivitySteps" x="80" y="115" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+   	<label id="ActivityToday" x="80" y="130" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+    <label id="ActivityWeek" x="80" y="145" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+
+    <label id="CountDownLabel" x="center" y="150" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     
     <drawable id="battery" class="Battery">
-        <param name="x">8</param>
-        <param name="y">85</param>
-        <param name="height">10</param>
-        <param name="width">22</param>
+        <param name="x">97</param>
+        <param name="y">6</param>
+        <param name="height">12</param>
+        <param name="width">24</param>
+    </drawable>
+    
+    <drawable id="movebar" class="MoveBar">
+        <param name="x">10</param>
+        <param name="y">104</param>
     </drawable>
 </layout>

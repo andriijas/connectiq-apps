@@ -8,16 +8,12 @@ using Toybox.Time.Gregorian as Calendar;
 
 class HBGMView extends Ui.WatchFace {
 
-    var width, height;
-
     function initialize() {
          WatchFace.initialize();
     }
 
     //! Load your resources here
     function onLayout(dc) {
-        width = dc.getWidth();
-        height = dc.getHeight();
         setLayout(Rez.Layouts.WatchFace(dc));
     }
 
@@ -60,19 +56,17 @@ class HBGMView extends Ui.WatchFace {
 
         // ### Date ###
 
-        View.findDrawableById("DateDayLabel")
-            .setText(Lang.format("$1$", [date.day_of_week]));
         View.findDrawableById("DateLabel")
-            .setText(Lang.format("$1$ $2$", [date.day, date.month]));
+            .setText(Lang.format("$1$ $2$ $3$", [date.day_of_week, date.day, date.month]));
 
         // ### /Date ###
 
         // ### Countdown ###
 
         var remaining = HbgmMoment.subtract(now).value();
-        var min  = (remaining % Calendar.SECONDS_PER_HOUR) / Calendar.SECONDS_PER_MINUTE;
-        var hour = (remaining % Calendar.SECONDS_PER_DAY) / Calendar.SECONDS_PER_HOUR;
-        var day =  remaining / Calendar.SECONDS_PER_DAY;
+        var hoursLeft = (remaining % Calendar.SECONDS_PER_DAY) / Calendar.SECONDS_PER_HOUR;
+        var daysLeft =  remaining / Calendar.SECONDS_PER_DAY;
+        var weeksLeft = daysLeft / 7;
 
         //var countDownText = Lang.format("$1$d $2$:$3$", [
         //    day,
@@ -80,16 +74,54 @@ class HBGMView extends Ui.WatchFace {
         //    min.format("%02d")
         //]);
 
-        View.findDrawableById("CountDownLabel").setText(Lang.format("$1$", [day]));
+        View.findDrawableById("CountDownLabel").setText(Lang.format("$1$", [daysLeft]));
 
         // ### /Countdown ###
 
-        View.findDrawableById("battery")
-            .setLevel(System.getSystemStats().battery);
 
+        drawActivity(dc);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+    }
+
+
+    function drawActivity(dc) {
+        var history = ActivityMonitor.getHistory();
+        var activity = ActivityMonitor.getInfo();
+        var deviceSettings = Sys.getDeviceSettings();
+
+        var distanceToday = activity.distance.toFloat();
+        var distanceWeek = distanceToday + 0;
+
+        var unit;
+
+        // Sum distance last week
+        for( var i = 0; i < history.size(); i++ ) {
+            distanceWeek += history[i].distance.toFloat();
+        }
+
+        if (deviceSettings.distanceUnits == deviceSettings.UNIT_STATUTE) {
+            distanceToday = distanceToday / 160934;
+            distanceWeek  = distanceWeek / 160934;
+            unit = "mi";
+         } else {
+            distanceToday = distanceToday / 100000;
+            distanceWeek  = distanceWeek / 100000;
+            unit = "km";
+         }
+
+        View.findDrawableById("ActivitySteps").setText(Lang.format("$1$", [activity.steps]));
+        View.findDrawableById("ActivityToday").setText(Lang.format("$1$$2$", [formatDistance(distanceToday), unit]));
+        View.findDrawableById("ActivityWeek").setText(Lang.format("$1$$2$", [formatDistance(distanceWeek), unit]));
+    }
+
+    function formatDistance(distance) {
+         if(distance < 100) {
+            return distance.format("%2.1f");     // formatting km/mi to 2numbers + 1 digit
+        } else {
+            return distance.format("%3u");
+        }
     }
 
     //! Called when this View is removed from the screen. Save the

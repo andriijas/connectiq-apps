@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="11" pc="268435458" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="12" pc="268435474" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="13" pc="268435490" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="17" pc="268435513" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="18" pc="268435530" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="19" pc="268435547" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="20" pc="268435563" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="23" pc="268435579" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="24" pc="268435603" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="28" pc="268435607" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="29" pc="268435631" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="32" pc="268435635" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="33" pc="268435652" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="35" pc="268435688" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="37" pc="268435728" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="38" pc="268435758" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="41" pc="268435762" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="42" pc="268435769" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="43" pc="268435803" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/movebar.mc" lineNum="44" pc="268435843" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="10" pc="268435869" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="11" pc="268435885" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="12" pc="268435901" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="13" pc="268435917" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="14" pc="268435933" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="18" pc="268435956" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="20" pc="268435988" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="22" pc="268436005" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="24" pc="268436041" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="26" pc="268436085" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="28" pc="268436171" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="29" pc="268436171" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="30" pc="268436182" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="32" pc="268436210" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="34" pc="268436238" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="36" pc="268436255" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="39" pc="268436269" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/battery.mc" lineNum="40" pc="268436285" symbol="draw"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="12" pc="268436365" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="17" pc="268436386" symbol="onLayout"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="28" pc="268436429" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="29" pc="268436446" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="39" pc="268436547" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="41" pc="268436613" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="42" pc="268436630" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="43" pc="268436640" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="47" pc="268436671" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="48" pc="268436696" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="49" pc="268436707" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="52" pc="268436723" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="59" pc="268436821" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="66" pc="268436927" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="67" pc="268436951" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="68" pc="268436981" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="69" pc="268436998" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="77" pc="268437008" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="82" pc="268437076" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="85" pc="268437090" symbol="onUpdate"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="90" pc="268437113" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="91" pc="268437132" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="92" pc="268437151" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="94" pc="268437168" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="95" pc="268437187" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="97" pc="268437197" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="100" pc="268437197" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="101" pc="268437221" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="104" pc="268437259" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="105" pc="268437279" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="106" pc="268437289" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="107" pc="268437299" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="109" pc="268437309" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="110" pc="268437319" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="111" pc="268437329" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="114" pc="268437336" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="115" pc="268437410" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="116" pc="268437499" symbol="drawActivity"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="120" pc="268437591" symbol="formatDistance"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="121" pc="268437602" symbol="formatDistance"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMView.mc" lineNum="123" pc="268437622" symbol="formatDistance"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMApp.mc" lineNum="7" pc="268437651" symbol="initialize"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMApp.mc" lineNum="20" pc="268437678" symbol="getInitialView"/>
+<entry filename="/Users/andreas/Code/connectiq-apps/HBGM/source/HBGMApp.mc" lineNum="25" pc="268437718" symbol="onSettingsChanged"/>
+<entry filename="Rez" lineNum="21" pc="268437737" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268437825" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268437877" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268437891" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268438001" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268438016" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268438068" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268438082" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="29" pc="268438192" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="30" pc="268438207" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="31" pc="268438259" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="32" pc="268438273" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="33" pc="268438396" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="34" pc="268438410" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="35" pc="268438533" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="36" pc="268438547" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="37" pc="268438670" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="38" pc="268438684" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="39" pc="268438794" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="40" pc="268438809" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="41" pc="268438861" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="42" pc="268438943" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="43" pc="268438970" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="45" pc="268438986" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="46" pc="268439042" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="47" pc="268439069" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="49" pc="268439085" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="11" object="true" symbol="HBGMApp"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry field="true" id="17" symbol="AppName"/>
+<entry field="true" id="16" symbol="LauncherIcon"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8389339" symbol="second"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389347" symbol="color"/>
+<entry id="13" module="true" symbol="Layouts"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="20" method="true" symbol="drawActivity"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8388939" symbol="day"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry field="true" id="8388940" symbol="year"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="8388938" symbol="month"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8" object="true" symbol="MoveBar"/>
+<entry field="true" id="8388720" symbol="hour"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8389338" symbol="minute"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="10" object="true" symbol="HBGMView"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="9" object="true" symbol="Battery"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="14" symbol="HBGM"/>
+<entry id="21" method="true" symbol="formatDistance"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="19" symbol="y"/>
+<entry id="18" symbol="x"/>
+<entry field="true" id="15" symbol="HbgmLogo"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435866" name="i" stackId="7" startPc="268435803"/>
+<entry endPc="268435866" name="w" stackId="4" startPc="268435513"/>
+<entry endPc="268435866" name="s" stackId="6" startPc="268435513"/>
+<entry endPc="268435866" name="h" stackId="5" startPc="268435513"/>
+<entry endPc="268435866" name="settings" stackId="2" startPc="268435513"/>
+<entry endPc="268435866" name="activity" stackId="3" startPc="268435513"/>
+<entry endPc="268436362" name="batteryLevel" stackId="2" startPc="268435956"/>
+<entry endPc="268436362" name="color" stackId="3" startPc="268435956"/>
+<entry endPc="268437110" name="hoursLeft" stackId="8" startPc="268436429"/>
+<entry endPc="268437110" name="now" stackId="2" startPc="268436429"/>
+<entry endPc="268437110" name="date" stackId="6" startPc="268436429"/>
+<entry endPc="268437110" name="daysLeft" stackId="9" startPc="268436429"/>
+<entry endPc="268437110" name="clockTime" stackId="4" startPc="268436429"/>
+<entry endPc="268437110" name="remaining" stackId="7" startPc="268436429"/>
+<entry endPc="268437110" name="weeksLeft" stackId="10" startPc="268436429"/>
+<entry endPc="268437110" name="HbgmMoment" stackId="3" startPc="268436429"/>
+<entry endPc="268437110" name="hours" stackId="5" startPc="268436429"/>
+<entry endPc="268437259" name="i" stackId="8" startPc="268437221"/>
+<entry endPc="268437588" name="deviceSettings" stackId="4" startPc="268437113"/>
+<entry endPc="268437588" name="distanceToday" stackId="5" startPc="268437113"/>
+<entry endPc="268437588" name="unit" stackId="7" startPc="268437113"/>
+<entry endPc="268437588" name="activity" stackId="3" startPc="268437113"/>
+<entry endPc="268437588" name="history" stackId="2" startPc="268437113"/>
+<entry endPc="268437588" name="distanceWeek" stackId="6" startPc="268437113"/>
+<entry endPc="268439182" name="rez_cmp_local_label_ActivityWeek" stackId="14" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_CountDownLabel_fontHeight" stackId="17" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_CountDownLabel" stackId="16" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_custom_drawable_movebar" stackId="19" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_TimeLabel_font" stackId="6" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_CountDownLabel_font" stackId="15" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_ActivityToday_font" stackId="11" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_ActivitySteps" stackId="10" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_ActivityToday" stackId="12" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_ActivitySteps_font" stackId="9" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_bitmap_HbgmLogo" stackId="2" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_DateLabel_fontHeight" stackId="5" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="8" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_DateLabel" stackId="4" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_DateLabel_font" stackId="3" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_custom_drawable_battery" stackId="18" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_ActivityWeek_font" stackId="13" startPc="268437737"/>
+<entry endPc="268439182" name="rez_cmp_local_label_TimeLabel" stackId="7" startPc="268437737"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="MoveBar">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="draw" parent="MoveBar">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="Battery">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="draw" parent="Battery">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="HBGMView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="HBGMView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onShow" parent="HBGMView">
+<documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onUpdate" parent="HBGMView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="drawActivity" parent="HBGMView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="formatDistance" parent="HBGMView">
+<param id="distance"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onHide" parent="HBGMView">
+<documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onExitSleep" parent="HBGMView">
+<documentation><![CDATA[<div class="description"> The user has just looked at their watch. Timers and animations may be started here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onEnterSleep" parent="HBGMView">
+<documentation><![CDATA[<div class="description"> Terminate any active timers and prepare for slow updates.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="initialize" parent="HBGMApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="HBGMApp">
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onStop" parent="HBGMApp">
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getInitialView" parent="HBGMApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onSettingsChanged" parent="HBGMApp">
+<documentation><![CDATA[<div class="description"> New app settings have been received so trigger a UI update<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>
