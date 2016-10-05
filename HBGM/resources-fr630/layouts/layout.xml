@@ -10,6 +10,7 @@
     <label id="ActivityWeek" x="80" y="145" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
 
     <label id="CountDownLabel" x="center" y="150" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="goodluck" x="135" y="115" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_WHITE" />
     
     <drawable id="battery" class="Battery">
         <param name="x">97</param>

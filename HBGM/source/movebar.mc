@@ -29,7 +29,7 @@ class MoveBar extends Ui.Drawable
             return;
         }
 
-        dc.setPenWidth(3);
+        dc.setPenWidth(5);
         dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);
 
         dc.drawArc(w, h, w, Gfx.ARC_COUNTER_CLOCKWISE, 182, 210);

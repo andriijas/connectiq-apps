@@ -27,15 +27,23 @@ class HBGMView extends Ui.WatchFace {
     function onUpdate(dc) {
         var now = Time.now();
         var HbgmMoment = Calendar.moment({
-            :year => 2016,
+            :year => 2017,
             :month => 9,
-            :day => 3,
+            :day => 2,
             :hour => 10,
             :minute => 0,
             :second => 0
         });
+        var HbgmEndMoment = Calendar.moment({
+            :year => 2017,
+            :month => 9,
+            :day => 2,
+            :hour => 12,
+            :minute => 0,
+            :second => 0
+        });
 
-        // Do some magic timezone offset bonanza, like a baws
+        // Do some magic timezone offset bonanza
         HbgmMoment = HbgmMoment.add(new Time.Duration(-Sys.getClockTime().timeZoneOffset));
 
         var clockTime = Sys.getClockTime();
@@ -64,17 +72,31 @@ class HBGMView extends Ui.WatchFace {
         // ### Countdown ###
 
         var remaining = HbgmMoment.subtract(now).value();
-        var hoursLeft = (remaining % Calendar.SECONDS_PER_DAY) / Calendar.SECONDS_PER_HOUR;
+        var hoursLeft = remaining / Calendar.SECONDS_PER_HOUR;
+        var minutesLeft = (remaining / 60 ) % 60;
         var daysLeft =  remaining / Calendar.SECONDS_PER_DAY;
         var weeksLeft = daysLeft / 7;
 
-        //var countDownText = Lang.format("$1$d $2$:$3$", [
-        //    day,
-        //    hour.format("%02d"),
-        //    min.format("%02d")
-        //]);
+        var countDownLabelText = "";
+        if (now.lessThan(HbgmMoment)) {
+            if (daysLeft == 300 || daysLeft == 250 || daysLeft == 200 || daysLeft == 150) {
+                countDownLabelText = Lang.format("$1$d", [daysLeft]);
+            } else if (daysLeft >= 100) {
+                countDownLabelText = Lang.format("$1$w", [weeksLeft]);
+            } else if (daysLeft > 0) {
+                countDownLabelText = Lang.format("$1$d", [daysLeft]);
+            } else if (hoursLeft > 0) {
+               countDownLabelText = Lang.format("$1$h", [hoursLeft]);
+            } else if (minutesLeft > 0) {
+               countDownLabelText = Lang.format("$1$m", [minutesLeft]);
+            }
+        }
+        View.findDrawableById("CountDownLabel").setText(countDownLabelText);
 
-        View.findDrawableById("CountDownLabel").setText(Lang.format("$1$", [daysLeft]));
+        if (hoursLeft < 24 and now.lessThan(HbgmEndMoment)) {
+           View.findDrawableById("goodluck")
+            .setText("HAVE A\nNICE\nRACE!");
+         }
 
         // ### /Countdown ###
 
